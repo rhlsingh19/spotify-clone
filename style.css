@@ -1,0 +1,70 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    display: flex;
+    width: 100vw;
+    height: 98vw;
+    
+}
+#sidebar{
+    flex:2;
+    background-color: #000;
+    color: #FFFFFF;
+}
+ul{
+    list-style-type: none;
+}
+#mainbar{
+    flex:5;
+    background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0) 100%);
+    color: #FFFFFF;
+}
+#player{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    color:white;
+    
+}
+.card1{
+    width: 362px;
+    height: 100px;
+    border-radius: 4px;
+    background: #303030;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.card1>img{
+    margin-right: 30px;
+
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-card{
+    width: 240px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    
+}
+
+
